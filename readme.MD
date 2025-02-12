@@ -16,7 +16,7 @@
 ---
 
 ## 📁 Project Structure
-```plaintext
+
 /code-analysis/
 │── main.py                 # Entry point for execution
 │── config.py               # Configuration settings
