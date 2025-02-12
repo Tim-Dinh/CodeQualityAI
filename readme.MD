@@ -43,11 +43,11 @@
 
 ## 📊 How It Works
 
-    The script scans the workspace master directory for .cpp and .h files.
-    It filters files based on size and selection probability.
-    It sends the code to an LLM for analysis.
-    The AI returns structured feedback (JSON format).
-    The cleaned and formatted data is saved in an Excel report.
+- The script scans the workspace master directory for .cpp and .h files.
+- It filters files based on size and selection probability.
+- It sends the code to an LLM for analysis.
+- The AI returns structured feedback (JSON format).
+- The cleaned and formatted data is saved in an Excel report.
 
 ## 🔗 License
 
