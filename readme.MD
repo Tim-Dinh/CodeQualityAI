@@ -16,7 +16,7 @@
 ---
 
 ## 📁 Project Structure
-
+```plaintext
 /code-analysis/
 │── main.py                 # Entry point for execution
 │── config.py               # Configuration settings
@@ -30,7 +30,7 @@
 │   ├── test_analyzer.py    # Tests for analyzer.py
 │── .gitignore              # Git ignored files
 │── code_analysis.xlsx      # (Generated) Analysis results file
-
+```
 
 ---
 
