@@ -1,0 +1,5 @@
+ollama
+pandas
+json5
+pytest
+openpyxl
