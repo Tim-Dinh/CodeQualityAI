@@ -13,7 +13,7 @@ def get_selected_files():
 
             file_path = os.path.join(root, filename)
 
-            with open(file_path, "r", encoding="utf-8") as file:
+            with open(file_path, "r", encoding="utf-8", errors="ignore") as file:
                 content = file.read()
                 char_count = len(content)
 

@@ -23,7 +23,7 @@ SELECTION_PROBABILITIES = {
 }
 
 # Cutoff for file length
-CUTOFF = 8000
+CUTOFF = 15000
 
 # Define the working directory
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))

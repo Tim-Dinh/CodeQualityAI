@@ -26,7 +26,7 @@ def analyze_file(file_path):
     filename = os.path.basename(file_path)
     print(f"Processing {filename}...")
 
-    with open(file_path, "r", encoding="utf-8") as file:
+    with open(file_path, "r", encoding="utf-8", errors="ignore") as file:
         file_content = file.read()[:CUTOFF]
 
     full_prompt = f"{EVALUATION_PROMPT}\n\n{file_content}"
