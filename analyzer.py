@@ -57,5 +57,5 @@ def analyze_file(file_path):
         return row
 
     except json.JSONDecodeError:
-        print(f"⚠️ JSON parsing failed for {filename}. Response:\n{result_text}")
+        print(f"JSON parsing failed for {filename}. Response:\n{result_text}")
         return [filename] + ["Error"] * 18  # Return an error row with placeholders

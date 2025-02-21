@@ -11,7 +11,7 @@ def main():
         print("No files selected for analysis.")
         return
 
-    print(f"🔹 Total files to process: {len(file_paths)}")
+    print(f"Total files to process: {len(file_paths)}")
 
     with multiprocessing.Pool(NUM_WORKERS) as pool:
         results = pool.map(analyze_file, file_paths)
@@ -29,7 +29,7 @@ def main():
     # Save results to Excel
     excel_file = "code_analysis.xlsx"
     df.to_excel(excel_file, index=False)
-    print(f"\n✅ Analysis complete! Results saved in '{excel_file}'")
+    print(f"\nAnalysis complete! Results saved in '{excel_file}'")
 
 if __name__ == "__main__":
     main()

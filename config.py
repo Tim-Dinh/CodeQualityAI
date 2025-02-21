@@ -29,5 +29,5 @@ CUTOFF = 15000
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DIRECTORY_PATH = r"C:\Projects\test"
 
-# ✅ Fix: Make sure NUM_WORKERS is properly assigned
+#  Fix: Make sure NUM_WORKERS is properly assigned
 NUM_WORKERS = min(4, os.cpu_count() or 1)  # Ensure at least 1 core is used

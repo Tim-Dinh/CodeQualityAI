@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Features
+## Features
 ✅ **AI-Powered Code Analysis** – Uses LLMs like DeepSeek-Coder and Qwen to evaluate code quality.  
 ✅ **Automatic File Selection** – Smart sampling based on file size and probability rules.  
 ✅ **Parallel Processing** – Multi-threaded analysis for performance optimization.  
@@ -15,7 +15,7 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```plaintext
 /code-analysis/
 │── main.py                 # Entry point for execution
@@ -34,14 +34,14 @@
 
 ---
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
-### **1️⃣ Prerequisites**
+### **Prerequisites**
 - **Python 3.8+**
-- **pip (Python package manager)**
-- **Ollama** (For LLM-based code analysis)
+- **pip**
+- **Ollama** 
 
-## 📊 How It Works
+## How It Works
 
 - The script scans the workspace master directory for .cpp and .h files.
 - It filters files based on size and selection probability.
@@ -49,10 +49,10 @@
 - The AI returns structured feedback (JSON format).
 - The cleaned and formatted data is saved in an Excel report.
 
-## 🔗 License
+## License
 
 EUPL License – Feel free to use and modify.
 
-## 🌟 Contributing
+## Contributing
 
 Want to improve this tool? Fork the repo and submit a pull request! 🚀
